@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "морской бой", "морской бой\морской бой.csproj", "{B64B60D2-9008-4F8E-9AAA-CEA1210CAE16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B64B60D2-9008-4F8E-9AAA-CEA1210CAE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64B60D2-9008-4F8E-9AAA-CEA1210CAE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64B60D2-9008-4F8E-9AAA-CEA1210CAE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64B60D2-9008-4F8E-9AAA-CEA1210CAE16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {838AC7DD-93F9-4417-8A7A-E6BE52A4C46C}
+	EndGlobalSection
+EndGlobal
