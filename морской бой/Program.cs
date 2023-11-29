@@ -397,7 +397,7 @@ while (true)
     }
     vivod(mb1);
 
-    while (win())
+    while (!win())
     {
         int k = 0;
         while (k == 0)
@@ -452,24 +452,26 @@ while (true)
         vivod(mb);
         vivod(mb1);
     }
+    Console.WriteLine("Победа");
 
     bool win()
     {
-        bool flag = false;
-        foreach(var i in mb)
+        bool flag1 = false;
+        bool flag2 = false;
+        for(int i  = 0; i < 11; i++)
         {
-            if(i == " # ")
+            for(int j = 0; j<11; j++)
             {
-                flag = true;
+                if (mb[i, j] == " # ")
+                {
+                    flag1 = true;
+                }
+                if(flag1 && mb1[i,j] == " # ")
+                {
+                    flag2 = true;
+                }
             }
         }
-        foreach(var i in mb1)
-        {
-            if(i == " # ")
-            {
-                flag = true;
-            }
-        }
-        return flag;
+        return !(flag1 && flag2);
     }
 }
